@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+    <head>
+        <title>Spring Security Kerberos Simple for Windows Active Directory</title>
+    </head>
+    <body>
+        <h1>Hello <span sec:authentication="name">jownwang</span></h1>
+        <h1>User principal: <span sec:authentication="principal.authorities"></span></h1>
+    </body>
+</html>

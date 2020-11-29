@@ -1,0 +1,5 @@
+server:
+    port: 8080
+app:
+    service-principal: HTTP/demo.jownwang.cn@DEMODOMAIN.local
+    keytab-location: c:/java/demo_tomcat1.keytab
